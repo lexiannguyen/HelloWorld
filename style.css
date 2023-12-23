@@ -1,0 +1,299 @@
+nav a{
+  display: flex;
+  color: #b37570;
+  align-content: space-evenly;
+  justify-content: center;
+  flex-direction: row;
+  font-size: 15pt;
+}
+nav {
+  padding: 10em;
+  height: 7em;
+  position: fixed;
+  top: 0;
+}
+.nav2 {
+  height: 4em;
+  width: 100%;
+  bottom: 0;
+}
+
+.intro {
+  padding-left: 20%;
+  padding-right: 20%;
+  background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      text-align: center;
+      position: relative;
+      width: auto;
+  object-fit: cover;
+    margin: auto;
+  
+  background-position: center bottom;
+  image-repeat: none;
+  background-image: url("https://cdn.glitch.com/cf364438-8c0c-4414-b840-afd085be6938%2FUntitled_Artwork.png?v=1628737743315")
+
+}
+img {
+   transition: transform .2s;
+}
+img:hover {
+   transform: scale(.9);
+}
+/*bootstrap icon*/
+.bi {
+  color: black;
+}
+p {
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: 15pt;
+}
+body {
+  margin: 10px;
+  text-align: center;
+}
+#planegif {
+  zoom: 500%;
+  width: 5em;
+  padding-right: none;
+  
+}
+
+#randomdiv {
+  background-color: #fad0cd;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px
+}
+
+#thedest {
+  font-size: 25pt;
+  color: black;
+}
+
+#randomdiv a {
+  color: black;
+}
+
+/* images */
+.intro {
+  background-image
+}
+
+/* kyoto*/
+
+  .kyototitle {
+    ` padding-top: 20px;
+      background-position: center;
+      height: 30em;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      text-align: center;
+      position: relative;
+      width: auto;
+      zoom: 125%;
+      object-fit: cover;
+    margin: auto;
+      object-position: 50% 40%;
+      background-image: url("https://cdn.glitch.com/cf364438-8c0c-4414-b840-afd085be6938%2Fkyoto.JPG?v=1628639501093")
+    }
+.kyototitle h1 {
+  padding-top: 1em;
+  font-size: 90pt;
+  color: #db6f5c;
+  font-family: 'Jua', sans-serif;
+  
+}
+#kyotointro {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+#kyototop {
+  padding-top: 30px;
+}
+.kpics {
+  height: 90%;
+  width: auto;
+}
+/*LA*/
+ .LAtitle {
+    ` padding-top: 20px;
+      background-position: 50% 75%;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      text-align: center;
+      position: relative;
+      width: 75%%;
+      zoom: 70%;
+      object-fit: cover; 
+      height: 50em;
+      padding-left: 15%;
+      padding-right: 15%;
+      margin: auto;
+    
+   
+      background-image: url("https://cdn.glitch.com/cf364438-8c0c-4414-b840-afd085be6938%2FIMG_9575.JPG?v=1628700702141")
+}
+.LAtitle h1 {
+  padding-top: 2em;
+  font-size: 90pt;
+  font-family: 'Jua', sans-serif;
+  color: #fad0cd;
+}
+
+.lpics {
+  height: 90%;
+  width: auto;
+}
+/*Osaka*/
+ .osakatitle {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      text-align: center;
+      position: relative;
+      width: 75%%;
+      zoom: 119%;
+      object-fit: cover; 
+      height: 40em;
+      padding-left: 15%;
+      padding-right: 15%;
+      margin: auto;
+    
+   
+      background-image: url("https://cdn.glitch.com/cf364438-8c0c-4414-b840-afd085be6938%2FScreenshot%202021-08-11%2012.51.09%20PM.png?v=1628711483324")
+}
+.osakatitle h1 {
+  padding-top: 2em;
+  font-size: 90pt;
+  color: #7bb891;
+  font-family: 'Jua', sans-serif;
+}
+
+.opics {
+  height: 90%;
+  width: auto;
+}
+
+/*seoul*/
+.seoultitle {
+    ` padding-top: 10px;
+      background-position: center left;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      text-align: center;
+      position: relative;
+      width: 90%;
+       zoom: 140%;
+      object-fit: cover; 
+      height: 30em;
+      padding-left: 10%;
+      padding-right: 10%;
+      margin: auto;
+      
+      background-image: url("https://cdn.glitch.com/cf364438-8c0c-4414-b840-afd085be6938%2FScreenshot%202021-08-11%2012.32.37%20PM.png?v=1628710383619");
+}
+.seoultitle h1 {
+  padding-top: 3em;
+  font-size: 80px;
+  font-family: 'Jua', sans-serif;
+  color: #226fbd;
+}
+#seoulintro {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.spics {
+  height: 90%;
+  width: auto;
+}
+
+
+/* table */
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 60%;
+  position: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+th, td {
+  padding: 5px;
+  text-align: left;
+}
+#tabletitle {
+  background-color: #fad0cd;
+  text-align: center
+}
+
+/*grid*/
+.container1 {
+  display: flex;
+  flex-direction:row;
+  justify-content:center;
+  flex-wrap: nowrap;
+  gap: 10px;
+  margin: auto; 
+  background-color: white; 
+  height: 600px; 
+  grid-gap: 10px;
+  margin-bottom: 20px;
+  filter: none;
+}
+.container1a {
+  display: flex;
+  flex-direction:row;
+  justify-content:center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: auto; 
+  background-color: white; 
+  height: 600px; 
+  width: 600px;
+  grid-gap: 10px;
+  margin-bottom: 20px;
+  filter: none;
+}
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.container2 {
+  display: flex;
+  flex-direction:row;
+  justify-content:center;
+  flex-wrap: nowrap;
+  gap: 10px;
+  margin: auto; 
+  background-color: white; 
+  height: 600px; 
+  grid-gap: 10px;
+  margin-bottom: 20px;
+  filter: none;
+}
+.container4 {
+  display: flex;
+  flex-direction:row;
+  justify-content:center;
+  flex-wrap: nowrap;
+  gap: 10px;
+  margin: auto; 
+  background-color: white; 
+  height: 600px; 
+  grid-gap: 10px;
+  margin-bottom: 20px;
+  filter: none;
+}
